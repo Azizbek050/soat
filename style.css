@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(to top,rgb(96, 208, 242),rgb(112, 112, 245));
+}
+.container{
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 200px;
+    height: 150px;
+    background:linear-gradient(to top,rgb(0, 229, 255),rgb(0, 136, 255));
+    box-shadow: 0 0 30px #ffffffeb,
+    -10px -10px #00fff2;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+}
+.box svg{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    left: 0;
+}
+.box h1{
+    margin:20px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.box :is(h1, p){
+    font-family: 'Poppins', sans-serif;
+    margin-left: 15px;
+    color: #fff;
+}
+.box p:nth-child(2){
+    font-size: 0.6em;
+    font-weight: 700;
+    color: #ffffff7c;
+}
+.box p:nth-child(3){
+    font-size: 0.8em;
+    font-weight: 700;
+    color: #ffffff;
+}
+i{
+    position: absolute;
+    color: #ffffff;
+    right: 8%;
+    top: 20%;
+    transform: rotate(15deg);
+}
+i:nth-child(5){
+    right: 20%;
+    top: 40%;
+    color: #fff;
+}
+i:nth-child(6){
+    right: 5%;
+    top: 60%;
+}
